@@ -1,45 +1,64 @@
-# Getting Started with Create React App
+# PortFolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Different ways of CSS Styling
+There are many ways to do CSS styling, nevertheless this sections only covers the difference between the following styles:
+- Styled-Components
+- SASS
+- Emotion Styled
+- Tailwind-CSS
 
-## Available Scripts
+### Styled-Components (Preferred way of styling)
+Advantages:
+- Easy maninenance. Dont need to hunt across different files to find the styling affecting your components.
+- No classname bugs. It generate unique classnames for your styles. Wont have to worry about duplication, overlap
+- Dynamic styling. Adapting the styling of a component based on its props or a global theme is simple and intuitive without having to manually manage dozens of classes.
+- Easier deletion of CSS. Every bits of styling is tied to a specific components so if the componenets is unused and it get deleted.All its styles will also get deleted with it
+- Able to write CSS to current standard & styled-components will handle the rest.
+- It keep tracks of which components are rendered on the page and injects their styles and nothing else. Thus, it load the least amount of code neccesary.
 
-In the project directory, you can run:
+#### Adapting based on props:
+#### Extending Styles:
+Quite frequently you might want to use a component, but change it slightly for a single case. Now, you could pass in an interpolated function and change them based on some props, but that's quite a lot of effort for overriding the styles once.
 
-### `yarn start`
+Example:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Ways of monitoring components 
+This section covers the following sections:
+- Intersection-Observer
+- Matomo
+- Splunk (Backend)
+### Intersection - Observer
 
-### `yarn test`
+## Different Ways Of State Management
+- React Query
+- Zustand
+- Redux
+- React Context
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Java Knowledge
+### Method reference
+- Eg: (::)
 
-### `yarn build`
+## Javascript & TypeScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Front-End Libraries (Low priority)
+This Sections covers a large variety of front-end libraries that can be used in Web-Development.
+- Mantine
+- Ant Design
+- Material UI
+### Mantine:
+Mantine is built with TypeScript with dark theme mode. Material UI is built with JavaScript.
+Sample Website:
+Personal Reflection:
+### Ant Design:
+Sample Website:
+### Material UI:
+Sample Website:
+Personal Reflection:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
