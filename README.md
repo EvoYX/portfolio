@@ -57,6 +57,15 @@ Sample Website:
 Sample Website:
 Personal Reflection:
 
+## HTML,CSS, JAVASCRIPT PROJECTS
+#### Useful VSCode Extension:
+- Live Server: 
+  - Launch a development local Server with live reload feature for static & dynamic pages.
+
+#### Useful Javascript Plugins:
+-
+### Projects:
+- Foods
 
 
 
