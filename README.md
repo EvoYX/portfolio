@@ -2,12 +2,75 @@
 
 Websites Features:
 - Food 
-  -  Food Check List (Able to add new place and check list)
-  -  Food Ratings
-  -  Consolidate based on areas
-  
-- IT Blog (Contains all the documenation that I learnt so far)
+  - Check List Section:
+    - Display a checklist of food places you want to visit, allowing visitors to see the list of places you plan to explore.
+    - Provide the option for users to mark the food places they have visited, keeping track of their progress and creating a sense of achievement.
+    - Implement a visually appealing design that clearly distinguishes between visited and unvisited food places.
+  - Category Filter:
+    - Incorporate a category filter feature that enables visitors to refine their search based on specific criteria such as cuisine type, location, or rating.
+    - Allow users to select one or multiple categories to view relevant food places, enhancing the user experience and facilitating targeted exploration.
+  - Foodie Section:
+    - Display foodie places in a structured and visually appealing format, showcasing key details such as the name, food photos, rating, reviews, and a          description.
+    - Include a rating system (such as stars or a numerical rating) to provide an overall indication of the quality or popularity of each food place.
+    - Allow users to access additional information or read reviews by clicking on individual food places.
+  - Interactive Map:
+    - Integrate an interactive map that marks the different foodie locations you have visited or plan to visit.
+    - Use markers or pins to represent each food place on the map, making it visually engaging and easy to navigate.
+    - Implement click functionality on the markers to provide users with more details about each food place and the option to access directions using external map services like Google Maps.
+
+- IT Documentation/Blog section can include your personal IT documentation or blog posts. 
+  - Each post can be represented as a preview card with a title, date, and brief description. Clicking on a blog post preview card would take the visitor to the full blog post, where they can read the entire content and access any relevant attachments or code snippets.
 - Personal Info 
+##### Here's how the interactive map can work on your website:
+```
+1. Pinpointing Locations: Each foodie place you have visited can be represented by a marker or pin on the map. This marker indicates the exact location of the restaurant or eatery.
+
+2. Pop-up Information: When a user clicks on a marker, a pop-up window or tooltip can appear, providing additional information about the foodie place, such as its name, address, and perhaps a photo or a brief description.
+
+3. Zooming and Navigation: Users can zoom in and out of the map to explore different areas and see markers in more detail. They can also pan or drag the map to navigate to different regions or neighborhoods.
+
+4. Filter or Category Options: You can include filter or category options on the map, allowing users to display markers based on specific criteria. For example, users could filter the map to only show markers for Asian cuisine or vegetarian-friendly restaurants.
+
+5. Linking to More Details: You can provide a link within the marker's pop-up window, directing users to a dedicated page or section on your website with more information about the foodie place, such as ratings, reviews, or your personal experience.
+
+An interactive map adds a visual and interactive element to your website, allowing visitors to explore the locations of your foodie experiences in an engaging way. It provides a visual context to your recommendations and enhances the overall user experience of your website.
+
+There are various mapping APIs and libraries available that can help you implement an interactive map, such as Google Maps API, Mapbox, Leaflet, or OpenLayers. These tools provide the necessary functionality and customization options to integrate an interactive map into your personal website.
+   +----------------------------------+
+   |          Foodie Places           |
+   +----------------------------------+
+   |            Category              |
+   |            Filter                |
+   +----------------------------------+
+   |                                  |
+   |          Interactive Map         |
+   |                                  |
+   +----------------------------------+
+   |                                  |
+   |     [Foodie Place 1]             |
+   |     [Food Photo]                 |
+   |     [Rating & Reviews]           |
+   |     [Description]                |
+   |                                  |
+   +----------------------------------+
+   |                                  |
+   |     [Foodie Place 2]             |
+   |     [Food Photo]                 |
+   |     [Rating & Reviews]           |
+   |     [Description]                |
+   |                                  |
+   +----------------------------------+
+   |                                  |
+   |     [Foodie Place 3]             |
+   |     [Food Photo]                 |
+   |     [Rating & Reviews]           |
+   |     [Description]                |
+   |                                  |
+   +----------------------------------+
+   |                ...               |
+   +----------------------------------+
+```
+ 
 Front End Library that will be using:
 - Ant-Design
 Backend:
