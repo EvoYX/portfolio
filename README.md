@@ -81,7 +81,7 @@ Personal Reflection:
 
 ## Blog Posts
 
-### Different Card Designs
+### Different Card Designs && 10 recorded videos of the course web overview
  
 #### CSS Useful Tricks
 - Transform origin
