@@ -85,6 +85,7 @@ Personal Reflection:
  
 #### CSS Useful Tricks
 - Transform origin
+- translatez
 - overflowx
 - transform
 - keyframe
