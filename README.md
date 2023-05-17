@@ -8,8 +8,10 @@ Websites Features:
   
 - IT Blog (Contains all the documenation that I learnt so far)
 - Personal Info 
-
-
+Front End Library that will be using:
+- Ant-Design
+Backend:
+- Mongo
 Below are all the documentation I wanted to put in my portfoilo:
 ----
 ### Different ways of CSS Styling
@@ -87,6 +89,7 @@ Personal Reflection:
 - transform
 - keyframe
 - media query
+- target
 
 #### Scrum and Agile Development: Tips for Success
 ---
