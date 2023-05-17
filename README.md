@@ -3,10 +3,12 @@
 Websites Features:
 - Food 
   -  Food Check List (Able to add new place and check list)
-  -  Food reviews 
+  -  Food Ratings
+  -  Consolidate based on areas
+  
 - IT Blog (Contains all the documenation that I learnt so far)
 - Personal Info 
-- ChatGPT (pending for free chatgpt4)
+
 
 Below are all the documentation I wanted to put in my portfoilo:
 ----
@@ -74,9 +76,17 @@ Personal Reflection:
 
 ##### Useful Javascript Plugins:
 -
-### Projects:
-- Foods
+
 ## Blog Posts
+
+### Different Card Designs
+ 
+#### CSS Useful Tricks
+- Transform origin
+- overflowx
+- transform
+- keyframe
+- media query
 
 #### Scrum and Agile Development: Tips for Success
 ---
