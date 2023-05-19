@@ -73,6 +73,7 @@ There are various mapping APIs and libraries available that can help you impleme
  
 Front End Library that will be using:
 - Ant-Design
+- ES Lint for identifying problematic patterns found in JavaScript code
 Backend:
 - Mongo
 Below are all the documentation I wanted to put in my portfoilo:
