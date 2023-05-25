@@ -76,6 +76,8 @@ Front End Library that will be using:
 - ES Lint for identifying problematic patterns found in JavaScript code
 Backend:
 - Mongo
+
+Typescript got such thing call the loading order.
 Below are all the documentation I wanted to put in my portfoilo:
 ----
 ### Different ways of CSS Styling
