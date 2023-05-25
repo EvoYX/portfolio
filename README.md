@@ -156,6 +156,9 @@ Personal Reflection:
 - media query
 - target
 - perspective
+- clip-path
+- word-break
+
 
 #### Scrum and Agile Development: Tips for Success
 ---
