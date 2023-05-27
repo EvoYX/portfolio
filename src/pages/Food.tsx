@@ -12,6 +12,7 @@ const Food = () => {
       <Checkbox.Group style={{ width: "100%" }}>
         <Checkbox value="place1">Place 1</Checkbox>
         <Checkbox value="place2">Place 2</Checkbox>
+        <Checkbox value="place2">Place 2</Checkbox>
         {/* Add more checkbox items as needed */}
       </Checkbox.Group>
 
