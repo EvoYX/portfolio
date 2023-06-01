@@ -86,6 +86,8 @@ There are many ways to do CSS styling, nevertheless this sections only covers th
 - SASS
 - Emotion Styled
 - Tailwind-CSS
+#### Useful CSS Articles:
+- CSS Modules vs CSS-in-JS: https://dev.to/alexsergey/css-modules-vs-css-in-js-who-wins-3n25
 
 #### Styled-Components (Preferred way of styling)
 Advantages:
