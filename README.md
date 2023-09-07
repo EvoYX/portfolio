@@ -118,6 +118,20 @@ This section covers the following sections:
 - Redux
 - React Context
 
+#### UseEffect, UseMemo & UseCallback
+
+useCallback: The useCallback is a react hook that returns a memoized callback when passed a function and a list of dependencies as parameters. It’s very useful when a component is passing a callback to its child component to prevent the rendering of the child component. It only changes the callback when one of its dependencies gets changed.
+
+useMemo: The useMemo is similar to useCallback hook as it accepts a function and a list of dependencies but it returns the memoized value returned by the passed function. It recalculated the value only when one of its dependencies change. It is useful to avoid expensive calculations on every render when the returned value is not going to change.
+
+useEffect: A hook that helps us to perform mutations, subscriptions, timers, logging, and other side effects after all the components has been rendered. The useEffect accepts a function that is imperative in nature and a list of dependencies. When its dependencies change it executes the passed function.
+
+UseMemo is intended for caching while useEffect is intended for running functions independently from te react function. 
+
+People often use useMemo because they need the result of the calculation in their render (e.g. some data to render with JSX) and not because they need it inside some effect code. In that case, you really need useMemo because you can't get anything back out of useEffect for use in the render.
+
+The main difference between useCallback and useMemo is the type of value they return. useCallback returns a memoized callback function, while useMemo returns a memoized value. 
+
 ## Java Knowledge
 ### Method reference
 - Eg: (::)
