@@ -1,16 +1,36 @@
-import React from 'react';
-import { Card } from 'antd';
+import React, { useEffect, useState } from "react";
+import { Card } from "antd";
+import blogData from "../data/blogData.json";
+
+// Use the `blogData` variable to access the JSON data
+interface BlogPost {
+  id: number;
+  title: string;
+  date: string;
+  tags: string[];
+  preview: string;
+  content: { heading: string; text: string }[];
+}
 
 const Blog = () => {
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
+
+  const fetchJson = () => {
+    setBlogPosts(blogData);
+  };
+  useEffect(() => {
+    // Fetch the blog posts from the JSON file
+    fetchJson();
+  }, []);
+
   return (
-    <div>
-      <h1>IT Documentation/Blog Page</h1>
-      
-      <Card title="Blog Post 1" style={{ width: 300 }}>
-        <p>Date: 1st May 2023</p>
-        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Card>
-      {/* Add more Card components for other blog posts */}
+    <div className="centered-content">
+      {blogPosts.map((post: any) => (
+        <Card key={post.id} title={post.title}>
+          <p>{post.preview}</p>
+          <a href={`/blog/${post.id}`}>Read More</a>
+        </Card>
+      ))}
     </div>
   );
 };
