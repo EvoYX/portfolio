@@ -88,7 +88,8 @@ There are many ways to do CSS styling, nevertheless this sections only covers th
 - Tailwind-CSS
 #### Useful CSS Articles:
 - CSS Modules vs CSS-in-JS: https://dev.to/alexsergey/css-modules-vs-css-in-js-who-wins-3n25
-
+- Difference between cssModule and vanilla extract: https://cssmod-vanilla-ex.vercel.app/
+  
 #### Styled-Components (Preferred way of styling)
 Advantages:
 - Easy maninenance. Dont need to hunt across different files to find the styling affecting your components.
